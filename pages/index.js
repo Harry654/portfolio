@@ -17,7 +17,7 @@ export default function Home() {
       <main className={`${styles.main} ${styles.background}`}>
         
         <div className={styles.content}>
-          {/* <p style={{ color: 'black' }}>{'Hey there '.repeat(500)}</p> */}
+          <p style={{ color: 'black' }}>{'Hey there '.repeat(500)}</p>
         </div>
       </main>
 
