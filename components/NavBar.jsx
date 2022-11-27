@@ -2,16 +2,17 @@ import React from 'react';
 import styles from '../styles/NavBar.module.css';
 import avatar from '../assets/background2.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function NavBar() {
   return (
     <nav className={styles.navBar}>
         <Image src={avatar} alt='avatar' className={styles.avatar} />
-        <a href='/' className={styles.navItems}>Home</a>
-        <a className={styles.navItems}>About Me</a>
-        <a href='#works' className={styles.navItems}>Works</a>
-        <a className={styles.navItems}>Tech Stack</a>
-        <a className={styles.navItems}>Contact</a>
+        <Link href='/' className={styles.navItems}>Home</Link>
+        <Link className={styles.navItems}>About Me</Link>
+        <Link href='#works' className={styles.navItems}>Works</Link>
+        <Link className={styles.navItems}>Tech Stack</Link>
+        <Link className={styles.navItems}>Contact</Link>
     </nav>
   )
 }

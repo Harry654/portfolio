@@ -21,8 +21,8 @@ function Works() {
               </div>
 
               <div className={styles.visitDiv}>
-                <a href={work.site_url} target='blank' className={styles.site_url} alt='site'>{work.site_url}</a>
-                <Image src={eye} className={styles.visit} />
+                <a href={work.site_url} target='blank' className={styles.site_url}>{work.site_url}</a>
+                <Image src={eye} className={styles.visit} alt='site' />
               </div>
             </div>
 
