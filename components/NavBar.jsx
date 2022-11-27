@@ -7,9 +7,9 @@ function NavBar() {
   return (
     <nav className={styles.navBar}>
         <Image src={avatar} alt='avatar' className={styles.avatar} />
-        <a className={styles.navItems}>Home</a>
+        <a href='/' className={styles.navItems}>Home</a>
         <a className={styles.navItems}>About Me</a>
-        <a className={styles.navItems}>Works</a>
+        <a href='#works' className={styles.navItems}>Works</a>
         <a className={styles.navItems}>Tech Stack</a>
         <a className={styles.navItems}>Contact</a>
     </nav>

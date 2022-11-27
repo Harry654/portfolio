@@ -20,7 +20,7 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.about}>
             <Slide direction='left'>
-              <h1>Hey there, I'm Harrison Akunne</h1>
+              <h1>{"Hey there, I'm Harrison Akunne"}</h1>
             </Slide>
           </div>
 
