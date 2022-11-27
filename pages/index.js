@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import NavBar from '../components/NavBar';
 import WelcomeModal from '../components/WelcomeModal';
+import Works from '../components/Works';
 import styles from '../styles/Home.module.css'
-
+import { Slide } from 'react-awesome-reveal';
 
 export default function Home() {
   return (
@@ -17,7 +18,14 @@ export default function Home() {
       <main className={`${styles.main} ${styles.background}`}>
         
         <div className={styles.content}>
-          <p style={{ color: 'black' }}>{'Hey there '.repeat(500)}</p>
+          <div className={styles.about}>
+            <Slide direction='left'>
+              <h1>Hey there, I'm Harrison Akunne</h1>
+            </Slide>
+          </div>
+
+          <Works />
+
         </div>
       </main>
 

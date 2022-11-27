@@ -10,8 +10,9 @@ function WelcomeModal() {
         alignItems: 'center',
         justifyContent: 'center',
         backgroundColor: 'rgb(31, 19, 19)',
-        position: 'absolute',
-        opacity: 1
+        position: 'fixed',
+        opacity: 1,
+        zIndex: 5
     });
     // const modalOpacity = modalStyles.opacity;
     let interval = setInterval(() => {
