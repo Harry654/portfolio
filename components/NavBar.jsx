@@ -9,10 +9,10 @@ function NavBar() {
     <nav className={styles.navBar}>
         <Image src={avatar} alt='avatar' className={styles.avatar} />
         <Link href='/' className={styles.navItems}>Home</Link>
-        <Link className={styles.navItems}>About Me</Link>
+        <Link href='/' className={styles.navItems}>About Me</Link>
         <Link href='#works' className={styles.navItems}>Works</Link>
-        <Link className={styles.navItems}>Tech Stack</Link>
-        <Link className={styles.navItems}>Contact</Link>
+        <Link href='/' className={styles.navItems}>Tech Stack</Link>
+        <Link href='/' className={styles.navItems}>Contact</Link>
     </nav>
   )
 }
